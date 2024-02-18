@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "firefly-chat",
+	"version": "${version}",
+	"name": "Firefly Chat",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"PYmili"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/PYmili/firefly-chat"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/firefly-chat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "icu.pymili_blog.FireflyChat"
+		],
+		"fabric-datagen": [
+          "icu.pymili_blog.FireflyChat"
+		]
+	},
+	"mixins": [
+		"firefly-chat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
