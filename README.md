@@ -4,7 +4,7 @@
 **适用游戏：** Minecraft  
 **开发者：** PYmili
 
-![icon.png](images/icon.png)
+![icon.png](./images/icon.png)
 
 Firefly-Chat 是一款专为Minecraft设计的创新模组，通过结合命令行功能与通义大模型（注：此处指阿里云开发的超大规模语言模型）的强大自然语言处理能力，实现了模拟热门游戏《星穹铁道》中角色“流萤”与玩家在Minecraft世界中的实时对话交流。
 
